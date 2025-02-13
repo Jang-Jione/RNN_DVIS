@@ -2,6 +2,9 @@
 
 ![image](https://github.com/user-attachments/assets/b0cb5d5a-1368-428c-bfb9-38d495e03d64)
 
+![image](https://github.com/user-attachments/assets/03890840-d5e7-4bd1-bd2f-e82524b211e8)
+
+
 ### 환경 설정
 ```
 conda create --name dvis python=3.8 -y
@@ -29,6 +32,7 @@ sh make.sh
 3. 데이터 셋 등록 형식은 링크 참고
 
 ### Training
+*주의: 학습 시키고 싶은 폴더 'dvis'로 이름 바꾸고 학습 시키기 ex. rnn dvis 학습 시키고 싶으면 dvis->dvis_origin, rnn_dvis->dvis로 바꾸고 학습 시키기*  
 example...
 ```
 python train_net_video.py \
@@ -45,6 +49,3 @@ python train_net_video.py \
   --config-file ./configs/youtubevis_2019/DVIS_Online_R50.yaml \
   --resume MODEL.WEIGHTS ./pretrained_model/pth_file/minvis_ytvis19_swin_large.pth
 ```
-
-### Additional...
-make video 코드 적어두기
