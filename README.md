@@ -49,3 +49,6 @@ python train_net_video.py \
   --config-file ./configs/youtubevis_2019/DVIS_Online_R50.yaml \
   --resume MODEL.WEIGHTS ./pretrained_model/pth_file/minvis_ytvis19_swin_large.pth
 ```
+
+### Analysis results
+CODALAB participate 후, `pth`파일과 `results.json`파일 등록 & 결과 확인
