@@ -34,8 +34,8 @@ sh make.sh
 4. 자세한 내용은 datasets의 readme 파일 참고 
   
 ### Training
-*학습 시키고 싶은 폴더 'dvis'로 이름 바꾸고 학습 시키기 ex. rnn dvis 학습 시키고 싶으면 dvis->dvis_origin, rnn_dvis->dvis로 바꾸고 학습 시키기*
-*pth 파일 제대로 넣고 학습 시키기*
+*학습 시키고 싶은 폴더 'dvis'로 이름 바꾸고 학습 시키기 ex. rnn dvis 학습 시키고 싶으면 dvis->dvis_origin, rnn_dvis->dvis로 바꾸고 학습 시키기*  
+*pth 파일 제대로 넣고 학습 시키기*  
 
 example...
 ```
@@ -57,4 +57,4 @@ python train_net_video.py \
 ```
   
 ### Analysis results
-CODALAB participate 후, `pth`파일과 `results.json`파일 등록 & 결과 확인
+CODALAB participate 후, `pth`파일과 `results.json`파일 등록 & 결과 확인 (자세한 내용 result_from_metric 참고)
