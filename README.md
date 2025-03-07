@@ -1,6 +1,7 @@
 # RNN_DVIS
 
-![image](https://github.com/user-attachments/assets/b0cb5d5a-1368-428c-bfb9-38d495e03d64)
+![image](https://github.com/user-attachments/assets/72471af3-5b47-483d-a35b-3cdfb14c9d76)
+
 
 ![image](https://github.com/user-attachments/assets/03890840-d5e7-4bd1-bd2f-e82524b211e8)
 
